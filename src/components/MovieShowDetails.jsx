@@ -51,6 +51,7 @@ export default function GameShowDetails({ response }) {
             onClick={() => {
               const trailerModal = document.querySelector(".trailer-modal");
               trailerModal.classList.toggle("d-none");
+              document.body.style.overflow = "hidden";
               document.querySelector("video").play();
             }}
           >
@@ -72,6 +73,7 @@ export default function GameShowDetails({ response }) {
                 const trailerModal = document.querySelector(".trailer-modal");
                 trailerModal.classList.toggle("d-none");
                 const video = document.querySelector("video");
+                document.body.style.overflow = "auto";
                 video.pause();
                 video.currentTime = 0;
               }}

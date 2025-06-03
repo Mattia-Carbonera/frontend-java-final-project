@@ -443,16 +443,16 @@ footer {
   width: 100%;
 }
 
+/* * SHOW PAGE */
 .show-page-card-container {
   margin: 3rem 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
-/* * SHOW PAGE */
 .show-container {
   position: relative;
   text-align: center;
